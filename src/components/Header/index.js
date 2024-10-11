@@ -8,7 +8,7 @@ const Header = props => {
   const remove = () => {
     const {history} = props
     Cookies.remove('jwt_token')
-    history.replace('./ebank/login')
+    history.replace('/ebank/login')
   }
   return (
     <nav className="nav-el">

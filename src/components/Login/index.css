@@ -1,6 +1,6 @@
 .main-con {
   display: flex;
-  flex-direction: rpw;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -18,8 +18,8 @@
   border-radius: 12px;
 }
 .ima {
-  height: 450 px;
-  width: 450 px;
+  height: 450px;
+  width: 450px;
 }
 .form-el {
   display: flex;
@@ -51,7 +51,7 @@
   width: 300px;
   padding: 7px;
   border: 1px solid #c3cad9;
-  border-radius: 6px;
+  border-radius: 6 px;
   color: #000000;
   outline: none;
 }

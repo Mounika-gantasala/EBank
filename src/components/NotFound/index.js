@@ -1,7 +1,7 @@
 import './index.css'
 
-const NotFound = () => (
-  <div className="no-con">
+const NotFound = () => {
+  ;<div className="no-con">
     <img
       src="https://assets.ccbp.in/frontend/react-js/ebank-not-found-img.png"
       className="ni"
@@ -12,6 +12,6 @@ const NotFound = () => (
       We are sorry, the page you requested could not be found
     </p>
   </div>
-)
+}
 
 export default NotFound
