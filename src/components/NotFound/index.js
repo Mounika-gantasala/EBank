@@ -1,7 +1,7 @@
 import './index.css'
 
 const NotFound = () => {
-  ;<div className="no-con">
+  <div className="no-con">
     <img
       src="https://assets.ccbp.in/frontend/react-js/ebank-not-found-img.png"
       className="ni"
