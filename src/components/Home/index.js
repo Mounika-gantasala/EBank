@@ -8,7 +8,7 @@ import './index.css'
 
 const Home = () => {
   const token = Cookies.get('jwt_token')
-  if (token === undefined) {
+  if (token !== undefined) {
     return <Redirect to="/ebank/login" />
   }
   return (
